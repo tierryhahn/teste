@@ -1,0 +1,10 @@
+document.getElementById("texto")
+const texto = document.getElementById("texto")
+document.createElement("p")
+const paragrafo = document.createElement("p")
+paragrafo.innerText = "Ola, Mundo!"
+document.createTextNode("Hello, World!")
+const textoNovo = document.createTextNode("Hello, World!")
+document.querySelector("body").appendChild(texto)
+texto.appendChild(paragrafo)
+texto.appendChild(textoNovo)
